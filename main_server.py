@@ -7,9 +7,6 @@ import userCommandsImpl, userCommands
 # Импорт основной сущности работы с protopy для сервера
 from pproto_py import TcpServer
 
-# Работа с логирование. В данном случае логгер настроен на отображение информации в консоли
-import logger
-
 
 if __name__ == '__main__':
     # Этот сервер будет слушать на таком ip и на таком порту
